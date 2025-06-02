@@ -21,3 +21,7 @@ void main() {
   var strIntepol = (name + " " + country);
   print(strIntepol);
 }
+
+
+//Data Types - artribute of data which tells the compiler how the programmer intends to use the data
+//Number, Strings, boolean, Maps, Runes, Null
