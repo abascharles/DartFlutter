@@ -23,15 +23,4 @@ void main() {
 
   //Data Types - artribute of data which tells the compiler how the programmer intends to use the data
   //Number, Strings, boolean, Maps, Runes, Null
-
-  //Numbers - intergers, doubles
-  int num1 = 15;
-  double num2 = 15.5;
-  var sum = num1 + num2;
-  print(sum);
-
-  //Strings - Text based datatypes
-  String studentName = "Chela";
-  String herCountry = "kenya";
-  print("Hello $studentName, from $herCountry");
 }
