@@ -3,8 +3,8 @@
 void main() {
   var age = 11;
   if (age >= 18) {
-    print('I can vote in Kenya!');
+    print('Wantam');
   } else {
-    print('I cannot Vote in Kenya!');
+    print('TwoTerm');
   }
 }
