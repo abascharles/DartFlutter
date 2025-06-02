@@ -20,8 +20,12 @@ void main() {
   //String interpolation
   var strIntepol = (name + " " + country);
   print(strIntepol);
+
+  //Data Types - artribute of data which tells the compiler how the programmer intends to use the data
+  //Number, Strings, boolean, Maps, Runes, Null
+
+  int num1 = 15;
+  double num2 = 15.5;
+  var sum = num1 + num2;
+  print(sum);
 }
-
-
-//Data Types - artribute of data which tells the compiler how the programmer intends to use the data
-//Number, Strings, boolean, Maps, Runes, Null
