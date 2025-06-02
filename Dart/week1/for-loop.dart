@@ -13,4 +13,13 @@ void main() {
   {
     print(i); //to print the number
   }
+
+  //While loop - used when number of execution of block of code is unknown - for inctance used if you need to loop until a condition is false its like repeating a task until you are done;
+  int i = 0; //-initialized index
+
+  while (i < list1.length) {
+    // Loop until i is less than the length of the list
+    print(list1[i]); // Print the current element at index i
+    i++; // Increment the index
+  }
 }
