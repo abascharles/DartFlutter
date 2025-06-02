@@ -5,4 +5,5 @@ void main() {
 
   //using dynamic - use any type of data type
   Map<String, dynamic> bikiniBottom = {'Spongebob': 'unknown', 'Mr Crabs': 29};
+  print(bikiniBottom);
 }
