@@ -15,7 +15,8 @@ void main() {
   }
 
   //While loop - used when number of execution of block of code is unknown - for inctance used if you need to loop until a condition is false its like repeating a task until you are done;
-  int i = 0; //-initialized index
+  //Example 1 - here we assume we dont know the lenghth of the lis named 'list1'
+  int i = 0; //initialized index
 
   while (i < list1.length) {
     // Loop until i is less than the length of the list
