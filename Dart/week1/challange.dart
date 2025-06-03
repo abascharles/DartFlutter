@@ -18,8 +18,16 @@ void main() {
     studentData[name] = marks;
     print('Marks entered for $name: $marks\n');
   }
+
   print('All student data');
   studentData.forEach((name, marks) {
     print('$name, $marks');
+    //Calculating student averages
+    int sum = 0;
+    for (int mark in marks) {
+      sum += mark;
+    }
+    double average = sum / marks.length;
+    print('Average marks $average');
   });
 }
