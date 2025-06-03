@@ -33,5 +33,20 @@ void main() {
 
   print('The sum of two numbers is $result!');
 
-  //Anonymous Functions
+  //Anonymous Functions - it lets you assign fuction name to a variable wich can be used to call the variable;
+  var printNam = () {
+    print('My name is Mr Crabs');
+  };
+  printNam();
+
+  //Example 2
+  var fruits = ["Apple", "Banana", "Cherry", "Date"];
+
+  fruits.forEach((fruit) {
+    print(fruit);
+  });
+
+  //Arrow function
+  void printAge() => print('My age is 25');
+  printAge();
 }
