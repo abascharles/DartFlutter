@@ -23,11 +23,11 @@ void main() {
   studentData.forEach((name, marks) {
     print('$name, $marks');
     //Calculating student averages
-    int sum = 0;
-    for (int mark in marks) {
-      sum += mark;
-    }
-    double average = sum / marks.length;
-    print('Average marks $average');
+    // int sum = 0;
+    // for (int mark in marks) {
+    //   sum += mark;
+    // }
+    // double average = sum / marks.length;
+    // print('Average marks $average');
   });
 }
