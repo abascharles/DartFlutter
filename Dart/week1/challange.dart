@@ -14,20 +14,28 @@ void main() {
       marks.add(mark);
     }
 
+    // Calculating student averages
+    int sum = 0;
+    for (int mark in marks) {
+      sum += mark;
+    }
+    double average = sum / marks.length;
+
     //Add name add marks to the loop
     studentData[name] = marks;
     print('Marks entered for $name: $marks\n');
+    if (average >= 50) {
+      print('$name: Average = $average - Passed');
+    } else if (average <= 0 && average >= 100) {
+      print("Invalid marks ");
+      continue;
+    } else {
+      print('$name: Average = $average - Failed');
+    }
   }
 
   print('All student data');
   studentData.forEach((name, marks) {
     print('$name, $marks');
-    //Calculating student averages
-    // int sum = 0;
-    // for (int mark in marks) {
-    //   sum += mark;
-    // }
-    // double average = sum / marks.length;
-    // print('Average marks $average');
   });
 }
