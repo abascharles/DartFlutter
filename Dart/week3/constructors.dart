@@ -2,7 +2,7 @@
 
 class MyDetails {
   String name = 'Unknown';
-  String age = 0;
+  int age = 0;
 }
 
 void main() {
