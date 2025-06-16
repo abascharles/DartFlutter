@@ -1,5 +1,6 @@
 import 'dart:io';
 
+double average = 0;
 void main() {
   Map<String, List<int>> studentData = {};
 
