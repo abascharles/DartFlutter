@@ -9,6 +9,8 @@ class Circle {
 
   Circle(this.radius);
 
+  //Factory method
+
   // This is our special "recipe step" for creating circles.
   // It checks if the radius is valid before making the circle.
 
